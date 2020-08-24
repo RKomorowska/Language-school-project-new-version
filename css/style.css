@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Noto+Sans+JP:wght@400;500;700&family=Poppins:wght@400;500;600&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,600&display=swap');
 
 /*
 body {
@@ -11,9 +12,9 @@ body {
 
 .main-menu-section {
     height: 400px;
-    background-color: #F13A14;
+    background-color: #da1406;
     border-radius: 20px;
-   border: 3px solid rgb(180, 6, 6);
+    border: 3px solid rgb(180, 6, 6);
 }
 
 .logo-menu {
@@ -23,35 +24,53 @@ body {
 
 .logo {
     height: 80px;
-    width: 200px;
+    width: 250px;
     margin: 20px;
-    color: white;
+    color: rgb(104, 6, 6);
     /*font-family: 'Charmonman', cursive;*/
     font-family: 'Alata', sans-serif;
-    font-size: 28px;
+    font-size: 40px;
 }
 
 .menu {
     height: 50px;
     width: 600px;
-    border: 1px solid white;
-    border-radius: 20px;
     margin: 20px
 }
 
-.main-title {
+
+.nav-header ul {
+    list-style: none;
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Alata', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
     color: rgb(104, 6, 6);
-    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: none;
+  }
+
+  a {
+      color: rgb(104, 6, 6);
+      font-size: 18px;
+      margin-left: 5px;
+  }
+
+.main-title {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 55px;
     text-align: center;
-    margin-top: 90px;
+    margin-top: 100px;
 }
 
+
 .menu-bottom-line {
-    height: 55px;
-    background-color: rgb(104, 6, 6);
-    border-radius: 0px 0px 20px 20px;
+    height: 25px;
+    background-color: red;
+    border-radius: 20px 20px 20px 20px;
     margin-top: 100px;
 }
 
@@ -65,18 +84,18 @@ body {
     height: 300px;
     width: 450px;
     margin-top: 190px;
-    border-radius: 20px;
+    border-radius: 50px;
     margin-right: 15px;
-    border: 3px solid #F13A14;
+    border: 7px solid red;
 }
 
 .first-content-box {
     height: 270px;
     width: 420px;
     margin-top: 120px;
-    border-radius: 20px;
+    border-radius: 50px;
     margin-left: 15px;
-    border: 3px solid #F13A14;
+    border: 5px solid red;
     text-align: center;
 }
 
@@ -92,8 +111,8 @@ body {
 .third-content-box {
     height: 250px;
     width: 450px;
-    border-radius: 20px;
-    border: 3px solid rgb(104, 6, 6);
+    border-radius: 50px;
+    border: 5px solid red;
     margin-left: 550px;
     margin-top: 22px;
 }
@@ -111,16 +130,18 @@ body {
 
 .why-us h1 {
     font-size: 38px;
+    color: rgb(104, 6, 6);
 }
 
 .why-us h2 {
     font-size: 24px;
+    color: rgb(104, 6, 6);
 }
 
 .why-us-box h3 {
     font-size: 22px;
     margin-top: 50px;
-    color: #b32306;
+    color: rgb(104, 6, 6);
 }
 
 .second-section {
