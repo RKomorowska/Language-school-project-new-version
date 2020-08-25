@@ -9,7 +9,7 @@
 }
 
 body{
-  background: red;
+  background: rgb(245, 39, 39);
 }
 
 .wrapper{
@@ -55,7 +55,7 @@ body{
   padding: 10px;
   text-align: center;
   width: 100%;
-  background: #fece0c;
+  background: red;
   color: #332902;
   text-transform: uppercase;
   letter-spacing: 5px;
