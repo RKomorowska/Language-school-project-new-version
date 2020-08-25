@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Noto+Sans+JP:wght@400;500;700&family=Poppins:wght@400;500;600&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,600&display=swap');
+
+body {
+    background-color: rgb(82, 80, 80);
+}
+
+h1 {
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 10px;
+    color: red;
+    text-transform: uppercase;
+    height: 60px;
+    box-shadow: inset 0 0 7px red;
+    padding: 10px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+h3 {
+    font-family: 'Alata', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+}
+
+p {
+    font-family: 'Alata', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container-courses {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.on-line-courses {
+    width: 500px;
+    height: 1000px;
+}
+
+.stationary-courses {
+    width: 500px;
+    height: 1000px;
+}
+
+.first-course,
+.second-course,
+.third-course {
+    width: 320px;
+    height: 190px;
+    background-color: rgb(233, 229, 229);
+    border: 1px solid red;
+    margin: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: inset 0 0 7px #000000;
+}
+
+.on-line-courses,
+.stationary-courses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-course {
+    background-color: red;
+}
+
+.third-course {
+    background-color: red;
+}
