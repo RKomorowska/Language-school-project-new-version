@@ -79,7 +79,7 @@ body {
 .top-boxes {
     height: 300px;
    
-    margin-top: 100px;
+    margin-top: 170px;
     display: flex;
     justify-content: center;
     margin-top: 180px;
@@ -189,6 +189,33 @@ body {
     text-transform: uppercase;
 }
 
+/*TOTAL IMMERSE SECTION */
+.total-immerse {
+    display: flex;
+    justify-content: center;
+}
+
+.total-immerse-box {
+    height: 300px;
+    width: 600px;
+    border-radius: 30px;
+    border: 3px solid white;
+    margin-top: 60px;
+    color: red;
+}
+
+.total-immerse-box h2 {
+    font-family: 'Alata', sans-serif;
+    font-size: 34px;
+    text-align: center;
+}
+
+.total-immerse-box p {
+    font-family: 'Alata', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
 /* WHY US SECTION */
 
 .description-container {
@@ -205,7 +232,7 @@ body {
     height: 250px;
     width: 1200px;
     background-color: yellowgreen;
-    
+    border: 5px solid white;
     margin: 30px;
     border-radius: 50px;
     text-transform: uppercase;
